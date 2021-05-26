@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document Viewer - Menu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Abdul Zacky Firmansyah">
+	<meta property="og:title" content="Document Viewer by ID & URL">
+	<meta property="og:description" content="This website can display your document by ID and URL">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="http://retardedalpha.rf.gd/content/documentviewer">
+
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+		body {background-color: #f0f5f9;}
+		.card {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #6e7c7c;
+			width: fit-content;
+			height: fit-content;
+			border: 2px solid #52616b; 
+			border-radius: 10px;
+		}
+
+		.btn-style {
+			margin: 8px;
+			padding: 8px;
+			width: 13em;
+			height: 8em;
+			background-color: #c9d6df;
+			border: 2px solid #52616b; 
+			border-radius: 10px;
+			text-align: left;
+			font-family: 'Poppins', sans-serif;
+			font-size: 15px;
+			outline: none;
+			transition: 0.3s ease;
+		}
+
+		.btn-style:hover {
+			transform: scale(0.95, 0.95);
+		}
+	</style>
+</head>
+<body>
+	<div class="card">
+		<a href="viewerbyurl"><button class="btn-style">Document Viewer<br>by URL</button></a>
+		<br>
+		<a href="viewerbyid"><button class="btn-style">Document Viewer<br>by ID</button></a>
+	</div>
+</body>
+</html>
